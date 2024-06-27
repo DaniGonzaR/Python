@@ -1,3 +1,5 @@
+### Operators ###
+
 ### Arithmetic operators ###
 print(5 + 5) # Addition
 print(5 - 5) # Substraction
