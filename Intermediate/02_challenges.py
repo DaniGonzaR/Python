@@ -21,6 +21,7 @@ def fizz_buzz():
             print(i)
 
 fizz_buzz()
+print("--------")
 
 """
 Es un anagrama?
@@ -36,6 +37,7 @@ def is_anagram(word1, word2):
     return sorted(word1.lower()) == sorted(word2.lower())
 
 print(is_anagram("python", "typhon"))
+print("--------")
 
 """
 Fibonacci
@@ -50,3 +52,43 @@ def fibonacci():
         a, b = b, a + b # a = b, b = a + b 
 
 fibonacci()
+print("--------")
+
+"""
+Es numero primo?
+Escribe un programa que compruebe si un numero es primo o no
+Imprime los numeros primos entre 1 y 100
+"""
+
+def is_prime():
+
+    for num in range(1, 101):
+        if num >= 2:
+
+            is_divisble = False
+
+            for i in range(2, num):
+                if num % i == 0:
+                    is_divisble = True
+                    break
+
+            if not is_divisble:
+                print(num)
+    
+is_prime()
+print("--------")
+
+"""
+Programa que invierta el orden de un string
+sin usar funciones propias del lenguaje
+"""
+
+def reverse_string(string):
+    string_length = len(string)
+    reversed_string = ""
+    
+    for i in range(0, string_length):
+        reversed_string += string[string_length - i - 1]
+    return reversed_string
+
+print(reverse_string("Daniel"))
