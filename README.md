@@ -1,5 +1,5 @@
 <h1 align="left">Curso Python</h1>
 
-Curso de Python de Mouredev Básico e Intermedio y ejercicios extra
-✅ - Básico
-⏰ - Intermedio
+<p>Curso de Python de Mouredev Básico e Intermedio y ejercicios extra </p>
+<p>✅ - Básico </p>
+<p>⏰ - Intermedio </p>
